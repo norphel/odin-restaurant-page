@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 20% auto;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.home {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+h1 {
+    font-family: 'DynaPuff', sans-serif;
+    background: linear-gradient(#250707, #b72828);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.logo {
+    background-image: url('../assets/logo.png');
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow:  20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+}
+nav {
+    display: flex;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+h2 {
+    font-family: 'DynaPuff', sans-serif;
+    font-weight: 300;
+}
