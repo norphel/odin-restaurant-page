@@ -1,6 +1,9 @@
 import renderHomepage from './home.js';
-import renderMenupage from './menu.js';
-import renderContactpage from './contact.js';
+// import renderMenupage from './menu.js';
+// import renderContactpage from './contact.js';
+
+import './styles/styles.css';
+import 'normalize.css';
 
 function createHeader () {
     const header = document.createElement('header');
