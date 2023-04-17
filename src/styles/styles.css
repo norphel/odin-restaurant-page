@@ -93,6 +93,7 @@ main {
 .about > div {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .about > div > div {
     width: 50%;
@@ -102,12 +103,17 @@ main {
 .about p span {
     font-size: 1.2rem;
 }
+.about img {
+    width: 20rem;
+    height: 27rem;
+}
 
 .menus {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
     gap: 2rem;
     justify-items: center;
+    padding: 1rem;
 }
 .card {
     width: 18rem;
