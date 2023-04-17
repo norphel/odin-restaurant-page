@@ -22,7 +22,7 @@ function createMenuCard(itemName, description, itemPhoto) {
 
 function renderMenupage () {
     const main = document.querySelector('main');
-
+    
     const menus = document.createElement('div');
     menus.classList.add('menus');
 
@@ -63,8 +63,8 @@ function renderMenupage () {
     menus.appendChild(apricotJam);
     
     main.appendChild(menus);
+
+    document.body.appendChild(main);
 } 
 
-renderMenupage();
-
-// export default renderMenupage;
+export default renderMenupage;
