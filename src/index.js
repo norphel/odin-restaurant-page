@@ -1,4 +1,3 @@
-// import createHeader from './createHeader.js';
 import renderHomepage from './home.js';
 import renderMenupage from './menu.js';
 import renderContactpage from './contact.js';
