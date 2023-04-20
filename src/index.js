@@ -2,8 +2,9 @@ import renderHomepage from './home.js';
 import renderMenupage from './menu.js';
 import renderContactpage from './contact.js';
 
-import './styles/styles.css';
 import 'normalize.css';
+import './styles/styles.css';
+
 
 renderHomepage();
 

@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap');
 
 body {
-    display: grid;
-    grid-template-rows: 1fr 10fr;
     height: 100vh;
 }
 
@@ -23,8 +21,8 @@ header {
 }
 .logo {
     background-image: url('../assets/logo.png');
-    width: 8rem;
-    height: 8rem;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -32,7 +30,7 @@ header {
 }
 h1,
 .about p span {
-    font-size: 2.5rem;
+    font-size: 64px;
     font-family: 'DynaPuff', sans-serif;
     background: linear-gradient(#250707, #b72828);
     -webkit-background-clip: text;
@@ -56,21 +54,20 @@ h2 {
 
 
 main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 2rem 2rem 2rem;
+    padding: 2rem;
 }
 
 .intro {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 .hero-text {
     font-weight: 100;
-    font-size: 3.2rem;
-    width: 30rem;
-    height: 15rem;
+    font-size: 58px;
+    width: 500px;
+    height: 350px;
     background: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
     font-family: 'DynaPuff', sans-serif;
     -webkit-background-clip: text;
@@ -152,4 +149,22 @@ main {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.location {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+iframe {
+    height: 400px;
+    width: max(400px, 50%);
+    border: none;
+}
+.links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    justify-content: center;
 }
