@@ -59,15 +59,13 @@ main {
 
 .intro {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 .hero-text {
-    font-weight: 100;
-    font-size: 58px;
-    width: 500px;
-    height: 350px;
+    font-size: 3.2rem;
+    width: max(30rem, 30%);
     background: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
     font-family: 'DynaPuff', sans-serif;
     -webkit-background-clip: text;
@@ -75,7 +73,7 @@ main {
     background-clip: text;
 }
 .samples {
-    width: 32rem;
+    width: max(30rem, 30%);
     height: 20rem;
     background: url(../assets/samples.png);
     background-size: contain;
@@ -93,7 +91,7 @@ main {
     flex-wrap: wrap;
 }
 .about > div > div {
-    width: 50%;
+    width: max(20rem, 50%);
     font-size: 1.2rem;
     padding: 0 1rem;
 }
@@ -101,8 +99,7 @@ main {
     font-size: 1.2rem;
 }
 .about img {
-    width: 20rem;
-    height: 27rem;
+    width: max(15rem, 30%);
 }
 
 .menus {
