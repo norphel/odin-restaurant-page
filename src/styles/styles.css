@@ -138,7 +138,6 @@ main {
     --size: 8rem;
     width: var(--size);
     height: var(--size);
-    outline: 1px solid black;
     border-radius: 50%;
     position: absolute;
     top: calc(100% - var(--size) + 1rem);
